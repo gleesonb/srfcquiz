@@ -12,28 +12,29 @@ body {
     font-size: 16px;
     background-color: #f4f4f4; /* Light grey background for maximum readability */
     color: #333; /* Dark grey text for readability */
-    padding-bottom: 20px;
 }
 
 /* Header styles */
 header {
-    color: #fff; /* White text for the header */
+    display: flex; /* Use flexbox to align items side by side */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     padding: 20px 10px; /* Add padding to the header */
-    text-align: center;
     background-color: #007533; /* Use a solid color for the header */
-    position: relative;
-    overflow: hidden; /* Ensure no images overflow the header */
 }
 
 header img {
-    max-width: 100%; /* Ensure images are not wider than the screen */
+    max-width: 100px; /* Maximum width for the crests */
     height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add some space around the images */
 }
 
 /* Ensure the header content is readable */
 header h1 {
     font-size: 2em;
-    margin: 10px 0;
+    color: white;
+    text-align: center;
+    flex-grow: 1; /* Allows the title to grow and take up remaining space */
 }
 
 /* Styles for the main content area */
@@ -68,12 +69,16 @@ a {
 
 /* Responsive design for images */
 @media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
     header img {
-        width: 80%; /* Reduce the image width on smaller screens */
-        margin-top: 10px; /* Add some space at the top of the header */
+        max-width: 80px; /* Smaller size for the crests on mobile */
+        margin: 5px 0; /* Less space around the images on mobile */
     }
     header h1 {
         font-size: 1.5em; /* Slightly smaller font for mobile */
+        margin-top: 10px; /* Add space above the title on mobile */
     }
     main, footer {
         width: 95%; /* Full width on mobile with a little padding */
