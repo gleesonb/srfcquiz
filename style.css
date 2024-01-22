@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    background-color: #004225; /* Sample green background */
+    text-align: center;
+}
+
+header {
+    margin: 20px 0;
+}
+
+header img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+main {
+    background: url('image/background-image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    color: yellow; /* Sample yellow text color */
+    font-size: 2em;
+}
+
+/* Add further styling for p elements, footer, and other content */
+
+#payment {
+    margin-top: 20px;
+}
+
+/* Add responsive design rules */
+@media (max-width: 768px) {
+    /* Adjust styles for mobile here */
+}
