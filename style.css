@@ -3,7 +3,7 @@
     position: relative;
     color: white;
     text-align: center;
-    background-image: url('path-to-header-background.jpg');
+    background-image: url('image/background-image.jpg');
     background-size: cover;
     padding: 20px;
 }
