@@ -31,4 +31,4 @@ srfcquiz/
 
 ## Hosting
 
-The site is configured for GitHub Pages hosting (as indicated by the CNAME file).
+The site is configured to run on Cloudflare Pages.
