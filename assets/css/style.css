@@ -47,12 +47,77 @@ main {
     background-color: #fff; /* Set background color to white for main content */
 }
 
+main p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 2.5rem;
+    color: #01923f;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+}
+
+main p:first-of-type {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #01923f;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 3px solid #01923f;
+    border-radius: 8px;
+    background: rgba(1, 146, 63, 0.1);
+    text-shadow: none;
+}
+
+main a {
+    color: #01923f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+main a:hover {
+    border-bottom: 2px solid #01923f;
+    text-shadow: 1px 1px 2px rgba(1, 146, 63, 0.2);
+}
+
 /* Footer styles */
 footer {
-    color: #fff;
+    background: linear-gradient(135deg, #01923f 0%, #016b2e 100%);
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
     text-align: center;
-    padding: 10px 0;
-    background-color: #007533; /* Dark green background */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer p:first-child {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer p:last-child {
+    font-weight: bold;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 /* Improve the visibility of links */
