@@ -67,6 +67,28 @@ a {
     text-align: center; /* Center the payment button */
 }
 
+/* Sponsorship button styles */
+.sponsorship-button {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.sponsor-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #01923f;  /* Shamrock Rovers green */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sponsor-link:hover {
+    background-color: #016b2e;  /* Darker shade for hover */
+    text-decoration: none;
+}
+
 /* Responsive design for images */
 @media (max-width: 768px) {
     header {
