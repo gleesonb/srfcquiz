@@ -16,25 +16,40 @@ body {
 
 /* Header styles */
 header {
-    display: flex; /* Use flexbox to align items side by side */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    padding: 20px 10px; /* Add padding to the header */
-    background-color: #007533; /* Use a solid color for the header */
-}
-
-header img {
-    max-width: 100px; /* Maximum width for the crests */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Add some space around the images */
-}
-
-/* Ensure the header content is readable */
-header h1 {
-    font-size: 2em;
-    color: white;
+    position: relative;
     text-align: center;
-    flex-grow: 1; /* Allows the title to grow and take up remaining space */
+    padding: 2rem 0;
+    background-color: #01923f;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+#crest {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80px;
+    z-index: 2;
+}
+
+#mascot-logo {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80px;
+    z-index: 2;
 }
 
 /* Styles for the main content area */
