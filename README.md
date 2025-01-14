@@ -13,8 +13,7 @@ srfcquiz/
 ├── assets/
 │   ├── images/
 │   └── css/
-├── index.html
-└── CNAME
+└── index.html
 ```
 
 ## Setup
